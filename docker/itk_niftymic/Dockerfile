@@ -4,7 +4,7 @@
 
 ARG VERSION=latest
 ARG REPO=ITK_NiftyMIC
-ARG IMAGE=python:3.6-slim
+ARG IMAGE=python:3.13.0rc2-slim
 
 # -----------------------------------------------------------------------------
 FROM $IMAGE as compile-image
