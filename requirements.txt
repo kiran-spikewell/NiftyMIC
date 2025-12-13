@@ -14,3 +14,5 @@ seaborn>=0.8.1
 SimpleITK>=1.2.0
 simplereg>=0.3.2
 six>=1.11.0
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
